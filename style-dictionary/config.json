@@ -1,6 +1,27 @@
 {
   "source": ["properties/**/*.json"],
   "platforms": {
+    "javascript": {
+      "transforms": ["attribute/cti", "name/ti/constant", "color/hex"],
+      "buildPath": "build/javascript/",
+      "files": [{
+        "destination": "colors.js",
+        "format": "javascript/es6",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      }, {
+        "destination": "sizes.js",
+        "format": "javascript/es6",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      }]
+    },
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scss/",
