@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/goldenshun/style-dictionary-material-ui/issues"
   },
-  "homepage": "https://github.com/goldenshun/style-dictionary-material-ui#readme"
+  "homepage": "https://github.com/goldenshun/style-dictionary-material-ui#readme",
+  "devDependencies": {
+    "style-dictionary": "2.8.0"
+  }
 }
