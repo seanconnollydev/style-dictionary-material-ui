@@ -1,0 +1,19 @@
+{
+  "name": "style-dictionary-material-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldenshun/style-dictionary-material-ui.git"
+  },
+  "author": "Sean Connolly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldenshun/style-dictionary-material-ui/issues"
+  },
+  "homepage": "https://github.com/goldenshun/style-dictionary-material-ui#readme"
+}
